@@ -1,5 +1,5 @@
 {
-  "name": "erc-20-abi",
+  "name": "erc-20-abi-info",
   "version": "1.0.1",
   "description": "ERC-20 token ABI",
   "keywords": [
@@ -14,17 +14,20 @@
     "token",
     "web3"
   ],
-  "homepage": "https://github.com/bloq/erc-20-abi#readme",
+  "homepage": "https://github.com/rubb1sh/Roppo#readme",
   "bugs": {
-    "url": "https://github.com/bloq/erc-20-abi/issues"
+    "url": "https://github.com/rubb1sh/Roppoissues"
   },
   "license": "MIT",
-  "author": "Gabriel Montes <gabriel@bloq.com>",
+  "author": "",
   "files": [
     "src/abi.json"
   ],
   "main": "src/abi.json",
-  "repository": "bloq/erc-20-abi",
+  "repository": {
+    "type": "git",
+    "directory": "git+https://github.com/rubb1sh/Roppo.git"
+  },
   "scripts": {
     "lint": "jsonlint src/abi.json -cisq",
     "prepublishOnly": "tag-matches"
