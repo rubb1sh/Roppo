@@ -16,7 +16,7 @@
   ],
   "homepage": "https://github.com/rubb1sh/Roppo#readme",
   "bugs": {
-    "url": "https://github.com/rubb1sh/Roppoissues"
+    "url": "https://github.com/rubb1sh/Roppo/issues"
   },
   "license": "MIT",
   "author": "",
@@ -27,10 +27,6 @@
   "repository": {
     "type": "git",
     "directory": "git+https://github.com/rubb1sh/Roppo.git"
-  },
-  "scripts": {
-    "lint": "jsonlint src/abi.json -cisq",
-    "prepublishOnly": "tag-matches"
   },
   "devDependencies": {
     "check-tag-matches": "^1.0.0",
