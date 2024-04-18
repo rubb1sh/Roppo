@@ -32,5 +32,8 @@
     "check-tag-matches": "^1.0.0",
     "husky": "^4.3.0",
     "jsonlint": "^1.6.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
